@@ -2,7 +2,7 @@ FROM alpine
 MAINTAINER smallweirdnum@gmail.com
 
 # To force an update of apt-get instead of a cached version
-RUN apk add --no-cache fish lynx 
+RUN apk add --no-cache fish lynx mdocml-apropos
 
 ENV BROWSER=lynx
 
